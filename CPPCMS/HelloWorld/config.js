@@ -1,9 +1,6 @@
-{
-    "service": {
-        "api": "http",
-        "port": 8080
-    },
-    "http": {
-        "script_names": ["/hello"]
-    }
+{  
+  "service" : {  
+    "api" : "fastcgi",  
+    "socket" : "stdin" // use server's socket  
+  }  
 }
